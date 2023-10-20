@@ -1,0 +1,12 @@
+.projects{
+    height: 900px;
+    background: #384f6d;
+    display: flex;
+    justify-content: center;
+}
+
+.projects h1{
+    color: #fff;
+    margin-top: 150px;
+    font-size: 4.3rem;
+}
