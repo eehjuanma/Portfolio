@@ -1,0 +1,27 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    background: #1b2430;
+    align-items: center;
+}
+
+.textitulo{
+    margin-top: 100px;
+}
+
+.textitulo h1{
+    color: #fff;
+    font-size: 4.3rem;
+}
+
+.habilidades{
+    display: flex;
+}
+
+.skillstexto{
+    color: #fff;
+    font-size: 2.3rem;
+    margin: 70px 400px;
+}
+

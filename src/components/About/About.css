@@ -1,0 +1,45 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1150px;
+    background: #384f6d;
+    padding: 10px 80px;
+}
+
+.textoabout{
+    margin-top: 100px;
+
+}
+
+.textoabout h1{
+    color: #fff;
+    font-size: 4.3rem;
+    font-weight: 700;
+}
+
+.img{
+    display: flex;
+    height: 450px;
+    width: 400px;
+    border-radius: 30%;
+    border: 3px solid #17cf97;
+}
+
+.foto{
+    width: 100%;
+    height: 100%;
+    border-radius: 40%;
+}
+
+.descripcion{
+    color: #fff;
+    font-size: 2.1rem;
+}
+
+.descrip{
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}

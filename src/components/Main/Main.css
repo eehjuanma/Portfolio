@@ -1,0 +1,43 @@
+.main{
+    display: flex;
+    height: 750px;
+    background: #1b2430;
+    padding: 10px 80px;
+}
+
+.titulos h1{
+    color: #fff;
+    font-size: 5.3rem;
+    font-weight: 700;
+}
+
+.span{
+    color: #17cf97;
+}
+
+.titulos h2{
+    color: #fff;
+    font-size: 3.3rem;
+}
+
+.titulos p{
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+.button{
+    color: #17cf97;
+    font-size: 1.5rem;
+    font-weight: 600;
+    height: 80px;
+    width: 200px;
+    background: transparent;
+    border-radius: 35px;
+    border: 4px solid #17cf97;
+    transition: 0.3s ease-in-out;
+}
+
+.button:hover{
+    background: #17cf97;
+    color: #1b2430;
+}
