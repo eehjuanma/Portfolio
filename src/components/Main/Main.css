@@ -41,3 +41,21 @@
     background: #17cf97;
     color: #1b2430;
 }
+
+.button2{
+    color: #17cf97;
+    font-size: 1.5rem;
+    font-weight: 600;
+    height: 80px;
+    width: 200px;
+    background: transparent;
+    margin-left: 20px;
+    border-radius: 35px;
+    border: 4px solid #17cf97;
+    transition: 0.3s ease-in-out;
+}
+
+.button2:hover{
+    background: #17cf97;
+    color: #1b2430;
+}

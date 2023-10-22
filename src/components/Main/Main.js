@@ -12,6 +12,7 @@ const Main = () => {
             languages that allow me to develop my own projects <br></br> and fall in love with the world of free
            software.</p>
            <button className='button'>Let's Talk</button>
+           <button className='button2'>Projects</button>
         </div>
       </div>
     </div>

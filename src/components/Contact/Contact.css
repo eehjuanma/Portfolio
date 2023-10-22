@@ -1,0 +1,64 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    background: #1b2430;
+    display: flex;
+    align-items: center;
+}
+
+.contact h1{
+    color: #fff;
+    margin-top: 150px;
+    font-size: 4.3rem;
+}
+
+.formulariocaja{
+    padding: 25px 20px;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 4px solid #17cf97;
+}
+
+.formulariocaja form{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.formulariocaja form input{
+    color: #fff;
+    font-size: 2rem;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 750px;
+    height: 85px;
+    background: transparent;
+    border: 2px solid #17cf97;
+    border-radius: 10px;
+}
+
+.formulariocaja form label{
+    margin-top: 30px;
+}
+
+.button3{
+    color: #17cf97;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    height: 80px;
+    width: 200px;
+    background: transparent;
+    border-radius: 35px;
+    border: 4px solid #17cf97;
+    transition: 0.3s ease-in-out;
+}
+
+.button3:hover{
+    background: #17cf97;
+    color: #1b2430;
+}
