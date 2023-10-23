@@ -1,0 +1,14 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #384f6d;
+    align-items: center;
+    height: 100px;
+}
+
+.footerelement{
+    font-size: 1.180rem;
+    font-weight: 600;
+    color: #fff;
+    margin: 10px 50px;
+}
