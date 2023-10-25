@@ -4,7 +4,6 @@
     align-items: center;
     height: 1150px;
     background: #384f6d;
-    padding: 10px 80px;
 }
 
 .textoabout{
@@ -20,8 +19,8 @@
 
 .img{
     display: flex;
-    height: 450px;
-    width: 400px;
+    height: 350px;
+    width: 300px;
     border-radius: 30%;
     border: 3px solid #17cf97;
 }
@@ -34,12 +33,12 @@
 
 .descripcion{
     color: #fff;
-    font-size: 2.1rem;
+    font-size: 2rem;
 }
 
 .descrip{
     color: #fff;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
 }
