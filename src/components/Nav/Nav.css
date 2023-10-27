@@ -22,7 +22,7 @@ nav{
 
 .navbar li{
     list-style: none;
-    padding: 0 20px;
+    padding: 20px 25px;
     position: relative;
 }
 
@@ -36,4 +36,45 @@ nav{
 
 .navbar li a:hover{
     color: #17cf97;
+}
+
+.nav-btn{
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+@media (max-width:600px){
+    .nav-btn{
+        visibility: visible;
+        opacity: 1;
+        color: #fff;
+    }
+
+    nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: #1b2430;
+        transition: 1s;
+        transform: translateY(-100vh);
+    }
+
+    .responsive_nav{
+        transform: none;
+    }
+
+
 }

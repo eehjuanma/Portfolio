@@ -9,6 +9,8 @@
     color: #fff;
     font-size: 5.3rem;
     font-weight: 700;
+    margin-top: 60px;
+    margin-bottom: 40px;
 }
 
 .span{
@@ -18,11 +20,13 @@
 .titulos h2{
     color: #fff;
     font-size: 3.3rem;
+    margin-bottom: 30px;
 }
 
 .titulos p{
     color: #fff;
     font-size: 1.7rem;
+    margin-bottom: 60px;
 }
 
 .button{

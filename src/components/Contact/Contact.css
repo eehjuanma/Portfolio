@@ -1,7 +1,7 @@
 .contact{
     display: flex;
     flex-direction: column;
-    height: 1080px;
+    height: 950px;
     background: #1b2430;
     display: flex;
     align-items: center;
@@ -9,7 +9,8 @@
 
 .contact h1{
     color: #fff;
-    margin-top: 150px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     font-size: 4.3rem;
 }
 

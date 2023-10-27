@@ -2,17 +2,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 1150px;
+    height: 950px;
     background: #384f6d;
 }
 
 .textoabout{
-    margin-top: 100px;
+    margin-top: 60px;
 
 }
 
 .textoabout h1{
     color: #fff;
+    margin-bottom: 50px;
     font-size: 4.3rem;
     font-weight: 700;
 }
@@ -23,6 +24,7 @@
     width: 300px;
     border-radius: 30%;
     border: 3px solid #17cf97;
+    margin-bottom: 50px;
 }
 
 .foto{
@@ -32,11 +34,13 @@
 }
 
 .descripcion{
+    margin-bottom: 30px;
     color: #fff;
     font-size: 2rem;
 }
 
 .descrip{
+    margin-bottom: 30px;
     color: #fff;
     text-align: center;
     font-size: 1.3rem;

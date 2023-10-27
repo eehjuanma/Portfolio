@@ -4,6 +4,8 @@ import img from '../../Assets/DSC_0373.jpg'
 
 const About = () => {
   return (
+    
+
     <div>
         <div className='about'>
             <div className='textoabout'>
