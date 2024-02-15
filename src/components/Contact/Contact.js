@@ -29,8 +29,8 @@ const Contact = () => {
                 <input type='email' name='email_id' required></input>
                 <label htmlFor='name' >Mensaje</label>
                 <input type='text' name='message' required></input>
-                <button className='button3' type='submit'>Enviar</button>
               </form>
+              <button className='button2' type='submit'>Enviar</button>
             </div>
         </div>
     </div>

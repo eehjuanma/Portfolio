@@ -2,16 +2,12 @@
     display: flex;
     flex-direction: column;
     height: 1000px;
-    background: #1b2430;
+    background: #212121;
     align-items: center;
-}
-
-.textitulo{
-    margin-top: 10px;
+    justify-content: center;
 }
 
 .textitulo h1{
-    margin-top: 60px;
     color: #fff;
     font-size: 4.3rem;
 }
@@ -23,7 +19,7 @@
 .skillstexto{
     color: #fff;
     font-size: 2.3rem;
-    margin: 50px 400px;
+    margin: 40px 400px;
 }
 
 .skillhabilidades{
@@ -33,11 +29,9 @@
     font-size: 1.5rem;
     font-weight: 700;
     border-radius: 4px;
-    border: 1px solid #17cf97;
+    border: 1px solid #1479EA;
 }
 
 .skillhabilidades p{
     margin: 30px;
 }
-
-

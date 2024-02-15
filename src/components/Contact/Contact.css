@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     height: 950px;
-    background: #1b2430;
+    background: #212121;
     display: flex;
     align-items: center;
 }
@@ -20,13 +20,14 @@
     font-size: 1.5rem;
     font-weight: 700;
     border-radius: 10px;
-    border: 4px solid #17cf97;
+    border: 4px solid #1479EA;
 }
 
 .formulariocaja form{
     
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 
 .formulariocaja form input{
@@ -38,7 +39,7 @@
     width: 750px;
     height: 85px;
     background: transparent;
-    border: 2px solid #17cf97;
+    border: 2px solid #1479EA;
     border-radius: 10px;
 }
 
