@@ -21,6 +21,38 @@
     font-size: 2.3rem;
     margin: 40px 400px;
 }
+@keyframes bg {
+    0% {
+        background-size:    0 3px,
+                            3px 0,
+                            0 3px,
+                            3px 0;
+    }
+    25% {
+        background-size:    100% 3px,
+                            3px 0,
+                            0 3px,
+                            3px 0;
+    }
+    50% {
+        background-size:    100% 3px,
+                            3px 100%,
+                            0 3px,
+                            3px 0;
+    }
+    75% {
+        background-size:    100% 3px,
+                            3px 100%,
+                            100% 3px,
+                            3px 0;
+    }
+    100% {
+        background-size:    100% 3px,
+                            3px 100%,
+                            100% 3px,
+                            3px 100%;
+    }
+}
 
 .skillhabilidades{
     margin: 20px 80px;
@@ -29,9 +61,27 @@
     font-size: 1.5rem;
     font-weight: 700;
     border-radius: 4px;
-    border: 1px solid #1479EA;
+    background-repeat: no-repeat;
+    background-image:   linear-gradient(to right, #1479EA 100%, #1479EA 100%),
+                        linear-gradient(to bottom, #1479EA 100%, #1479EA 100%),
+                        linear-gradient(to right, #1479EA 100%, #1479EA 100%),
+                        linear-gradient(to bottom, #1479EA 100%, #1479EA 100%);
+    background-size:    100% 3px,
+                        3px 100%,
+                        100% 3px,
+                        3px 100%;
+    background-position:    0 0,
+                            100% 0,
+                            100% 100%,
+                            0 100%;
+    animation: bg 2.25s cubic-bezier(0.19, 1, 0.22, 1) 1;
+    animation-play-state: paused;
 }
 
 .skillhabilidades p{
     margin: 30px;
+}
+.skillhabilidades:hover{
+    animation-play-state: running;
+    box-shadow: inset 0px 0px 25px #1479EA;
 }

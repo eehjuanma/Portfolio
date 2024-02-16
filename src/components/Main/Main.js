@@ -1,3 +1,4 @@
+import { Link } from 'react-scroll';
 import './Main.css'
 import React from 'react'
 
@@ -12,7 +13,7 @@ const Main = () => {
             languages that allow me to develop my own projects <br></br> and fall in love with the world of free
            software.</p>
            <button className='button'>Let's Talk</button>
-           <button className='button2'>Projects</button>
+           <Link to='projects'><button className='button2'>Projects</button></Link>
         </div>
       </div>
     </div>
