@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.css'
+import img1 from '../../Assets/DSC_0673-2.jpg'
 
 const About = () => {
   return (
@@ -11,7 +12,7 @@ const About = () => {
                 <h1>About <span className='span'>Me</span></h1>
             </div>
             <div className='img'>
-
+              <img src={img1} className='foto'/>
             </div>
             <div className='descripcion'>
                 <h2>Full Stack Developer</h2>
