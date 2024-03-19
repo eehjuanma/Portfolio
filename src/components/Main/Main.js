@@ -12,8 +12,9 @@ const Main = () => {
           <p>Jr. developer passionate about technology, being self-taught I have <br></br> learned programming 
             languages that allow me to develop my own projects <br></br> and fall in love with the world of free
            software.</p>
-           <button className='button'>Let's Talk</button>
+           <Link to='contact'><button className='button'>Let's Talk</button></Link>
            <Link to='projects'><button className='button2'>Projects</button></Link>
+           <Link to='projects'><button className='button2'>GitHub</button></Link>
         </div>
       </div>
     </div>

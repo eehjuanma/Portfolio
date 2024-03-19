@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.css'
+import CV from '../../Assets/Desarrollador Backend y Frontend - Juan Manuel Andrada.pdf';
 
 const About = () => {
   return (
@@ -23,7 +24,9 @@ Initially, I immersed myself in web development using PHP and discovered its pot
 
 In addition to my role at a consulting firm, I am also engaged in a startup named Epsiweb, where I work as a freelancer, creating web pages.<br></br> This experience enables me to apply my acquired knowledge while continuously evolving both personally and professionally.<br></br> I am enthusiastic about applying my skills to future projects and furthering my growth in this exciting field.</p>
             </div>
-            <button className='button'>Download CV</button>
+            <div className='button buttondownload'>
+              <a className='textbutton' href={CV}>Curriculum</a>
+            </div>
         </div>
     </div>
   )
