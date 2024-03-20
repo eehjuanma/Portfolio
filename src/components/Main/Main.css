@@ -32,6 +32,10 @@
     margin-bottom: 60px;
 }
 
+.buttons{
+    display: flex;
+}
+
 /*.button{
     color: #17cf97;
     font-size: 1.5rem;
