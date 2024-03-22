@@ -61,6 +61,7 @@
     height: 4em;
     border: 3px ridge rgb(28, 170, 202);
     outline: none;
+    margin-left: 20px;
     background-color: transparent;
     color: white;
     transition: 1s;
@@ -167,4 +168,77 @@
 
 .button2:hover{
     box-shadow: inset 0px 0px 25px #1479EA;
+}
+
+
+@media (max-width: 952px){
+    .titulos h1{
+        color: #fff;
+        font-size: 3.3rem;
+        font-weight: 700;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .titulos h2{
+        color: #fff;
+        font-size: 2.3rem;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+    .titulos p{
+        color: #fff;
+        font-size: 1.4rem;
+        margin-bottom: 60px;
+    }
+    .buttons{
+        
+    }
+    .button{
+        width: 10em;
+        position: relative;
+        margin-left: 20px;
+        height: 4em;
+        border: 3px ridge rgb(28, 170, 202);
+        outline: none;
+        background-color: transparent;
+        color: white;
+        transition: 1s;
+        border-radius: 0.3em;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    .button::after{
+        content: "";
+        position: absolute;
+        top: -10px;
+        left: 3%;
+        width: 95%;
+        height: 40%;
+        background-color: #212121;
+        transition: 0.5s;
+        transform: center;
+    }
+    
+    .button::before{
+        content: "";
+        transform-origin: center;
+        position: absolute;
+        top: 80%;
+        left: 3%;
+        width: 95%;
+        height: 40%;
+        background-color: #212121;
+        transition: 0.5s;
+    }
+    
+    .button:hover::before, .button2:hover::after{
+        transform: scale(0);
+    }
+    
+    .button:hover{
+        box-shadow: inset 0px 0px 25px #1479EA;
+    }
+    
 }

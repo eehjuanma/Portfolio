@@ -14,7 +14,7 @@ const Main = () => {
            software.</p>
            <div className='buttons'>
            <Link to='contact'><button className='button'>Let's Talk</button></Link>
-           <Link to='projects'><button className='button2'>Projects</button></Link>
+           <Link to='projects'><button className='button'>Projects</button></Link>
            <div className='button buttondownload'>
               <a className='textbutton' href='https://github.com/eehjuanma'>Git Hub</a>
             </div>
