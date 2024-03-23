@@ -6,10 +6,12 @@ import Skills from './components/Skills/Skills';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import Ecommerce from './components/Ecommerce/Ecommerce';
 
 function App() {
   return (
     <div>
+      <div>
       <Nav/>
       <Main/>
       <About/>
@@ -17,6 +19,10 @@ function App() {
       <Projects/>
       <Contact/>
       <Footer/>
+      <div>
+        <Ecommerce/>
+      </div>
+      </div>
     </div>
   );
 }

@@ -1,5 +1,6 @@
-import React from 'react'
-import './Project.css'
+import React from 'react';
+import './Project.css';
+import { Link } from 'react-scroll';
 
 const Projects = () => {
   return (
@@ -9,7 +10,7 @@ const Projects = () => {
             <div className='container'>
               <div className='box1'>
                 <h2>E-commerce</h2>
-                <button className='button'>Ver mas</button>
+                <Link to='ecommerce'><button className='button'>Ver mas</button></Link>
               </div>
               <div className='box1'>
                 <h2>LandingPage</h2>
