@@ -1,3 +1,11 @@
+html{
+  scroll-snap-type: y mandatory;
+}
+.Mmain, .Sskills, .Aabout, .Pproject, .Ccontact{
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}
+
 .App {
   text-align: center;
 }
